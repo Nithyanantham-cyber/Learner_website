@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/login_styles.css">
+  <link  rel="shortcut icon" type="image/png" href="icon/favicon1.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Login</title>
+   <link  rel="shortcut icon" type="image/png" href="icon/favicon1.png">
+  <style type="text/css">
+    input,
+.btn {
+  width: 24%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <p class="sign" align="center">Login</p>
+    <form class="form1">
+      <input class="un " type="text" align="center" placeholder="Username">
+      <input class="pass" type="password" align="center" placeholder="Password">
+      <a class="submit" align="center">Login</a>
+      <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+            
+                
+    </div>
+
+
+    <div class="login">
+<div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+         <br>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <br>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+  </div>
+     
+<div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+
+
+
+
+     
+</body>
+
+</html>
